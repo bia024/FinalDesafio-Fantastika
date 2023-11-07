@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Lora:ital,wght@0,400;0,600;1,700&family=Martian+Mono&family=Mooli&family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header section {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+div {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+header img {
+  width: 2vw;
+  margin-left: 6%;
+}
+div img {
+  width: 2vw;
+}
+h1 {
+  font-size: 1rem;
+}
+.Box_Inauguracao {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./LogosW/doguinhoinauguracao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.Box_Inauguracao h2 {
+  width: 50%;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  bottom: 8rem;
+}
+.logo {
+  width: 8%;
+  position: relative;
+  bottom: 8rem;
+}
+.Box_Banho-Tosa {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./LogosW/doguinhobanho.png");
+  background-color: #f4f2f3;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Box_Banho-Tosa h2 {
+  font-size: 2.5rem;
+  margin-right: 31rem;
+  margin-top: 3rem;
+}
+.Box_Banho-Tosa p {
+  width: 20%;
+  font-size: 1.5rem;
+  margin-right: 33rem;
+  margin-top: 4rem;
+}
+.Box_Banho-Tosa button {
+  width: 15%;
+  height: 10vh;
+  color: white;
+  background-color: black;
+  border-radius: 50px 60px;
+  margin-top: 4rem;
+  margin-right: 36rem;
+  font-size: 1rem;
+}
+.mordomia_Saudavel {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./LogosW/doguinhopink.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.mordomia_Saudavel h2 {
+  font-size: 2.5rem;
+  margin-left: 40rem;
+  margin-top: 3rem;
+  color: white;
+}
+.mordomia_Saudavel p {
+  width: 20%;
+  font-size: 1.5rem;
+  margin-left: 40rem;
+  margin-top: 4rem;
+  color: white;
+}
+.mordomia_Saudavel button {
+  width: 15%;
+  height: 10vh;
+  color: black;
+  background-color: white;
+  border: solid white;
+  border-radius: 50px 60px;
+  margin-top: 4rem;
+  margin-left: 40rem;
+  font-size: 1rem;
+}
+.apoio {
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.apoio h3 {
+  color: #fd6a9a;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+.Box_Images {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.Box_Images img {
+  width: 40%;
+}
+.central {
+  display: flex;
+}
+.atendimento {
+  height: 40vh;
+  display: flex;
+  border: solid salmon;
+  background-color: #eb4a7b;
+  columns: 3;
+  margin-top: 5%;
+}
